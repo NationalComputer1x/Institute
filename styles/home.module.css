@@ -1,0 +1,679 @@
+.mobile {
+    display: inline;
+}
+
+.responsive_grid1 {
+    color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+}
+
+.responsive_grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    background-color: #bb00e055;
+}
+
+.responsive_grid {
+    border-bottom-left-radius: 30%;
+    border-top-right-radius: 30%;
+}
+
+.card {
+    flex: auto 1 350px;
+    height: auto;
+    margin: 15px 15px 15px 65px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #B3B3B3;
+    background-color: #ffffff;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19PX 38px;
+    border-radius: 5px;
+    width: 400px;
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: translateY(-15px);
+}
+
+.card a {
+    color: #000000;
+    font-weight: bold;
+}
+
+.card span {
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+}
+
+.card1 {
+    flex: auto 1 350px;
+    height: auto;
+    margin: 15px 15px 15px 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #00458f;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19PX 38px;
+    border-radius: 5px;
+    width: 250px;
+    transition: transform 0.2s ease-in-out;
+    background-color: #00458f
+}
+
+
+.card1 a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.card1 p {
+    text-align: center;
+    font-size: large;
+    color: #FFFFFF;
+    padding-inline: 20px;
+}
+
+.card1 p b {
+    color: #FFFFFF;
+}
+
+.card1:hover {
+    background-color: #05336f;
+    cursor: pointer;
+    transform: translateY(-15px);
+}
+
+.card2 {
+    flex: auto 1 350px;
+    height: auto;
+    margin: 15px 15px 15px 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    width: 140px;
+    color: "#ffffff";
+}
+
+.card2 p {
+    color: #fff;
+}
+
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+
+.card2 .students {
+    transition: --num 2s;
+    counter-set: num var(--num);
+    font: 800 40px system-ui;
+    color: #fff;
+}
+
+
+
+.card2 .students::before {
+    content: counter(num);
+}
+
+.card2 .students:hover {
+    color: "#ffffff";
+    --num: var(--num1);
+}
+
+.card2 .students1 {
+    transition: --num 2s;
+    counter-set: num var(--num);
+    font: 800 40px system-ui;
+    color: #fff;
+}
+
+
+
+.card2 .students1::before {
+    content: counter(num);
+}
+
+.card2 .students1:hover {
+    color: "#ffffff";
+    --num: var(--num2);
+}
+
+.card2 .students2 {
+    transition: --num 2s;
+    counter-set: num var(--num);
+    font: 800 40px system-ui;
+    color: #fff;
+}
+
+
+
+.card2 .students2::before {
+    content: counter(num);
+}
+
+.card2 .students2:hover {
+    color: "#ffffff";
+    --num: var(--num3);
+}
+
+.card2 .students3 {
+    transition: --num 2s;
+    counter-set: num var(--num);
+    font: 800 40px system-ui;
+    color: #fff;
+}
+
+
+
+.card2 .students3::before {
+    content: counter(num);
+}
+
+.card2 .students3:hover {
+    color: "#ffffff";
+    --num: var(--num4);
+}
+
+.button1 {
+    padding: 4px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(15, 134, 232);
+    color: #FFFFFF;
+    font-weight: bold;
+    border: '0px';
+    cursor: pointer;
+    border-radius: 30px;
+    transition: 0.5s ease-in-out;
+    ;
+
+}
+
+.button1:hover {
+    border: 2px solid #ffffff;
+    background-color: #0b3f8d;
+}
+
+.thumbnail {
+    flex: 1 1 300px;
+    height: auto
+}
+
+.thumbnail h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.list_text li {
+    font-size: large;
+    font-weight: bold;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.thumbnail p {
+    color: #000;
+    font-size: medium;
+    font-weight: bold;
+    padding-top: 60px;
+    padding-inline: 20px;
+}
+
+.thumbnail a {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.thumbnail .icon1 {
+    margin: 5px;
+    padding: 7px;
+    color: #007bff;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    transition: .5s ease-in-out;
+}
+
+.thumbnail .icon1:hover {
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    background-color: #007bff;
+}
+
+.thumbnail h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.thumbnail h1 {
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 60px;
+    margin-bottom: 0;
+}
+
+.thumbnail span {
+    margin-left: 60px;
+    padding: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(15, 134, 232);
+    color: #FFFFFF;
+    font-weight: bold;
+    border: '0px';
+    cursor: pointer;
+    border-radius: 30px;
+    transition: 0.5s ease-in-out;
+    ;
+
+}
+
+.thumbnail span:hover {
+    border: 2px solid #ffffff;
+    background-color: #0b3f8d;
+}
+
+.thumbnail h1 u {
+    color: #007bff;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.content1 {
+    flex: 2 1 300px
+}
+
+.content1 img {
+    width: 100%;
+    padding: 60px;
+    padding-top: 85px;
+}
+
+
+.desktop {
+    display: none
+}
+
+.showFlexRow {
+    display: flex;
+    flex-direction: column;
+}
+
+.showSpaceBetcol {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.showSpaceAroundcol {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.showSpaceAroundcol>div {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.wrapper {
+    max-width: auto;
+    display: grid;
+    grid-gap: 5px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.dropdown {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.dropdown .left_icon,
+.dropdown .right_icon {
+    top: 9px;
+    position: relative;
+    display: inline-block;
+    width: 15px;
+    height: 5px;
+    background-color: #444;
+    border-radius: 40px;
+    transition: .5s;
+}
+
+.dropdown:hover .right_icon {
+    transform: rotate(-135deg);
+}
+
+.dropdown:hover .left_icon {
+    transform: rotate(-45deg);
+}
+
+.dropdown:hover .items a {
+    left: 0;
+}
+
+/* ---------- Nested Dropdown ---------- */
+.subDropdown {
+    position: relative;
+}
+
+.subMenuTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Submenu */
+.subItems {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    min-width: 220px;
+    background: white;
+    display: none;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.subDropdown:hover .subItems {
+    display: flex;
+}
+
+
+.menu a {
+    cursor: pointer;
+    font-size: 18;
+    color: #333
+}
+
+.menu a:after {
+    position: absolute;
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2.5px;
+    left: 50%;
+    background: #333;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.menu a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.menu:hover a {
+    color: #09B2A0
+}
+
+.dropdown:hover .items {
+    visibility: visible;
+}
+
+.dropdown .left_icon {
+    left: 7px;
+    transform: rotate(45deg);
+}
+
+.dropdown .active .left_icon {
+    transform: rotate(135deg);
+}
+
+.dropdown .right_icon {
+    transform: rotate(-45deg);
+}
+
+.dropdown .active .right_icon {
+    transform: rotate(-135deg);
+}
+
+.dropdown .items {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180%;
+    height: 160;
+    margin-top: 53px;
+    overflow: hidden;
+    visibility: hidden;
+    transition: transform .5s ease-in-out;
+}
+
+.dropdown .items a {
+    position: relative;
+    display: flex;
+    left: 100%;
+    font-size: 18px;
+    color: #bb00e0;
+    border-radius: 2px solid #333;
+    background-color: #ffffff;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px;
+    border-radius: 5px;
+    padding: 2px 3px;
+    margin: 4px;
+    overflow: hidden;
+    z-index: 1;
+    transition: .5s;
+    transition-delay: calc(60ms*var(--i));
+}
+
+.dropdown .items a span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #bb00e0;
+    /* background-color: #bb00e0;*/
+    z-index: -1;
+    border-radius: inherit;
+    transform: rotate(140deg);
+    transform-origin: right;
+    transition: .5s;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.logo div a {
+    padding: 0px;
+    color: #09B2A0;
+}
+
+.logo img {
+    max-width: 55px;
+    margin: 0 0 0 0;
+    object-fit: contain;
+    display: inline-block;
+
+}
+
+.dropdown .items a:hover {
+    color: #ffffff;
+}
+
+.dropdown .items a:hover span {
+    transform: rotate(0deg);
+
+}
+
+.dropdown .active .items a {
+    left: 0;
+}
+
+.dropdown .active .items {
+    visibility: visible;
+}
+
+.nested {
+    position: relative;
+}
+
+.nested > a {
+    position: relative;
+    display: flex;
+    left: 100%;
+    font-size: 18px;
+    color: #bb00e0;
+    background-color: #ffffff;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px;
+    border-radius: 5px;
+    padding: 2px 3px;
+    margin: 4px;
+    overflow: hidden;
+    z-index: 1;
+    transition: .5s;
+    transition-delay: calc(60ms*var(--i));
+}
+
+.nested > a span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #bb00e0;
+    z-index: -1;
+    border-radius: inherit;
+    transform: rotate(140deg);
+    transform-origin: right;
+    transition: .5s;
+}
+
+.sub {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 180px;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px;
+    border-radius: 5px;
+    padding: 5px 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s;
+    z-index: 10;
+}
+
+.nested:hover .sub {
+    visibility: visible;
+    opacity: 1;
+}
+
+.sub a {
+    display: block;
+    padding: 8px 15px;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.sub a:hover {
+    background: #f0f0f0;
+    color: #bb00e0;
+}
+
+.dropdown:hover .nested > a {
+    left: 0;
+}
+
+.nested:hover > a {
+    color: #fff;
+}
+
+.nested:hover > a span {
+    transform: rotate(0deg);
+}
+
+@media screen and (min-width: 450px) {
+
+    /* no grid support? */
+    .mobile {
+        display: none;
+    }
+
+
+
+    .desktop {
+        display: inline;
+    }
+
+    .sidebar {
+        float: left;
+        width: 19.1489%;
+    }
+
+    .content {
+        float: right;
+        width: 79.7872%;
+    }
+
+    .wrapper {
+        margin: 0 auto;
+        grid-template-columns: 1fr auto;
+    }
+
+    .header {
+        grid-column: 1 / -1;
+        /* needed for the floated layout */
+        clear: both;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px;
+
+    }
+
+    .footer {
+        grid-column: 1 / -1;
+        /* needed for the floated layout */
+        clear: both;
+    }
+
+}
+
+.wrapper>* {
+    background-color: #ffffff;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    /* needed for the floated layout*/
+    margin-bottom: 10px;
+}
+
+/* We need to set the widths used on floated items back to auto, and remove the bottom margin as when we have grid we have gaps. */
+@supports (display: grid) {
+    .wrapper>* {
+        width: auto;
+        margin: 0;
+    }
+
+
+}
