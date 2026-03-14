@@ -65,6 +65,7 @@ export default function MarksheetTemplate({ student, qr }: Props) {
           <img
             src="/nclp_logo.jpeg"
             className="w-24 h-24 object-contain"
+            alt="NCPL Logo" 
           />
 
           <div>
@@ -111,6 +112,7 @@ export default function MarksheetTemplate({ student, qr }: Props) {
               <img
                 src={student.photo}
                 className="w-full h-full object-cover"
+                alt="Student Photo"
               />
             </div>
           </div>
@@ -174,15 +176,15 @@ export default function MarksheetTemplate({ student, qr }: Props) {
             <p className="text-xs mb-2">IN ASSOCIATION WITH</p>
 
             <div className="flex gap-3">
-              <img src="/tally.png" className="h-10"/>
-              <img src="/champion.png" className="h-10"/>
-              <img src="/certiport.png" className="h-10"/>
+              <img src="/tally.png" className="h-10" alt="Tally Logo"/>
+              <img src="/champion.png" className="h-10" alt="Champion Logo"/>
+              <img src="/certiport.png" className="h-10" alt="Certiport Logo"/>
             </div>
           </div>
 
           {/* QR + SIGN */}
           <div className="text-center">
-            <img src={qr} className="w-20 mx-auto"/>
+            <img src={qr} className="w-20 mx-auto" alt="QR Code"/>
             <p className="text-sm mt-2">Director</p>
           </div>
 

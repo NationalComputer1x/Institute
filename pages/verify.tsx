@@ -70,6 +70,7 @@ return(
 <img
 src={student.photo}
 className="w-32 h-32 object-cover border"
+alt="description" 
 />
 
 <div>

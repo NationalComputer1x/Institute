@@ -251,7 +251,7 @@ const handleLogin = async (e: any) => {
                                     Sign up
                                 </button>
                             </div>
-                            <img src="https://i.ibb.co/6HXL6q1/Privacy-policy-rafiki.png" className="image" alt="" />
+                            <img src="https://i.ibb.co/6HXL6q1/Privacy-policy-rafiki.png" className="image" alt="description" />
                         </div>
                         <div className="panel right-panel">
                             <div className="content">
@@ -264,7 +264,7 @@ const handleLogin = async (e: any) => {
                                     Sign in
                                 </button>
                             </div>
-                            <img src="https://i.ibb.co/nP8H853/Mobile-login-rafiki.png" className="image" alt="" />
+                            <img src="https://i.ibb.co/nP8H853/Mobile-login-rafiki.png" className="image" alt="description" />
                         </div>
                     </div>
                 </div>

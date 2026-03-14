@@ -116,12 +116,12 @@ export default function Home() {
               <span> Online Courses</span>
             </div>
             <div className={styles.content1}>
-              <img src={intro.src} alt="" />
+              <img src={intro.src} alt="Introduction" />
             </div>
           </div>
           <div className={styles.responsive_grid1}>
             <div className={styles.content1} style={{ margin: 0 }}>
-              <img src={objective.src} alt="" />
+              <img src={objective.src} alt="Objective" />
             </div>
             <div className={styles.thumbnail}>
               <h2> Our Objective</h2>
@@ -150,7 +150,7 @@ export default function Home() {
 
             </div>
             <div className={styles.content1} style={{ margin: 0 }}>
-              <img src={mission.src} alt="" />
+              <img src={mission.src} alt="Mission" />
             </div>
           </div>
           <div className={styles.showFlexRow} style={{ justifyContent: "center", alignItems: "center", color: '#000', backgroundColor: "#ecf5ff" }}
@@ -199,7 +199,7 @@ export default function Home() {
               </div>
               <div className={styles.card}>
                 <div className={styles.showSpaceAroundcol}>
-                  <div><img src="https://omitec.org/img/exam.svg" width={60} height={60} style={{ marginTop: "25px" }}  ></img></div>
+                  <div><img alt="Online Examination" src="https://omitec.org/img/exam.svg" width={60} height={60} style={{ marginTop: "25px" }}  ></img></div>
                   <div className={styles.showFlexRow}>
                     <div> <a>Online Examination</a></div>
                     <div>
@@ -223,7 +223,7 @@ export default function Home() {
               </div>
               <div className={styles.card}>
                 <div className={styles.showSpaceAroundcol}>
-                  <div><img src=" https://omitec.org/img/class.svg" width={60} height={60} style={{ marginTop: "25px" }}  ></img></div>
+                  <div><img src=" https://omitec.org/img/class.svg" width={60} height={60} style={{ marginTop: "25px" }}  alt="Class"></img></div>
                   <div className={styles.showFlexRow}>
                     <div> <a>Best Teacher</a></div>
                     <div>
@@ -235,7 +235,7 @@ export default function Home() {
               </div>
               <div className={styles.card}>
                 <div className={styles.showSpaceAroundcol}>
-                  <div> <img src="https://omitec.org/img/support.svg" width={60} height={60} style={{ marginTop: "25px" }}  ></img></div>
+                  <div> <img src="https://omitec.org/img/support.svg" width={60} height={60} style={{ marginTop: "25px" }}  alt="Lab Support"></img></div>
                   <div className={styles.showFlexRow}>
                     <div> <a>Lab Support</a></div>
                     <div>
@@ -247,7 +247,7 @@ export default function Home() {
               </div>
               <div className={styles.card}>
                 <div className={styles.showSpaceAroundcol}>
-                  <div> <img src="https://omitec.org/img/task.svg" width={60} height={60} style={{ marginTop: "25px" }}  ></img></div>
+                  <div> <img src="https://omitec.org/img/task.svg" width={60} height={60} style={{ marginTop: "25px" }}  alt="Assignment"></img></div>
                   <div className={styles.showFlexRow}>
                     <div> <a>Best Assignment for Practice</a></div>
                     <div>
@@ -269,7 +269,7 @@ export default function Home() {
             <div className={styles.responsive_grid1} style={{paddingLeft:60}}>
               <div className={styles.card1}>
                 <div className={styles.showFlexRow} style={{ alignItems: "center", justifyContent: "center" }}>
-                  <div><img src="https://omitec.org/img/Course/laptopCloud.svg" width={30} height={30} style={{}}  ></img></div>
+                  <div><img src="https://omitec.org/img/Course/laptopCloud.svg" width={30} height={30} style={{}}  alt="Laptop Cloud"></img></div>
                   <div><a> CCC  </a></div>
                   <div><p>Certificate in Computer Concept</p></div>
                   <div><p>
@@ -281,7 +281,7 @@ export default function Home() {
               </div>
               <div className={styles.card1}>
                 <div className={styles.showFlexRow} style={{ alignItems: "center", justifyContent: "center" }}>
-                  <div><img src="https://omitec.org/img/Course/LaptopBar.svg" width={30} height={30} style={{}}  ></img></div>
+                  <div><img src="https://omitec.org/img/Course/LaptopBar.svg" width={30} height={30} style={{}}  alt="Laptop Bar"></img></div>
                   <div><a> DCA</a></div>
                   <div><p>Diploma in Computer Application</p></div>
                   <div><p>
@@ -293,7 +293,7 @@ export default function Home() {
               </div>
               <div className={styles.card1}>
                 <div className={styles.showFlexRow} style={{ alignItems: "center", justifyContent: "center" }}>
-                  <div><img src="https://omitec.org/img/Course/LaptopUser.svg" width={30} height={30} style={{}}  ></img></div>
+                  <div><img src="https://omitec.org/img/Course/LaptopUser.svg" width={30} height={30} style={{}}  alt="Laptop User"></img></div>
                   <div><a> ADCA </a></div>
                   <div><p>Advanced Diploma in Computer Application</p></div>
                   <div><p>
@@ -305,7 +305,7 @@ export default function Home() {
               </div>
               <div className={styles.card1}>
                 <div className={styles.showFlexRow} style={{ alignItems: "center", justifyContent: "center" }}>
-                  <div><img src="https://omitec.org/img/Course/LaptopUser.svg" width={30} height={30} style={{}}  ></img></div>
+                  <div><img src="https://omitec.org/img/Course/LaptopUser.svg" width={30} height={30} style={{}}  alt="Laptop User"></img></div>
                   <div><a> ACCOUNTING & TAX </a></div>
                   <div><p>Income Tax + GST Return Filing</p></div>
                   <div><p>
@@ -321,7 +321,7 @@ export default function Home() {
             <div className={styles.responsive_grid1} style={{paddingLeft:60}}>
               <div className={styles.card1}>
                 <div className={styles.showFlexRow} style={{ alignItems: "center", justifyContent: "center" }}>
-                  <div><img src="https://omitec.org/img/Course/bill.svg" width={30} height={30} style={{}}  ></img></div>
+                  <div><img src="https://omitec.org/img/Course/bill.svg" width={30} height={30} style={{}}  alt="Bill"></img></div>
                   <div><a> PGDCA  </a></div>
                   <div><p>Post Graduate Diploma in Computer Application</p></div>
                   <div><p>
@@ -333,7 +333,7 @@ export default function Home() {
               </div>
               <div className={styles.card1}>
                 <div className={styles.showFlexRow} style={{ alignItems: "center", justifyContent: "center" }}>
-                  <div><img src="https://omitec.org/img/Course/finance.svg" width={30} height={30} style={{}}  ></img></div>
+                  <div><img src="https://omitec.org/img/Course/finance.svg" width={30} height={30} style={{}}  alt="Finance"></img></div>
                   <div><a> ACCOUNTING </a></div>
                   <div><p>Tally Prime with GST</p></div>
                   <div><p>
@@ -345,7 +345,7 @@ export default function Home() {
               </div>
               <div className={styles.card1}>
                 <div className={styles.showFlexRow} style={{ alignItems: "center", justifyContent: "center" }}>
-                  <div><img src="https://omitec.org/img/Course/accounting.svg" width={30} height={30} style={{}}  ></img></div>
+                  <div><img src="https://omitec.org/img/Course/accounting.svg" width={30} height={30} style={{}}  alt="Accounting"></img></div>
                   <div><a> EXCEL  </a></div>
                   <div><p>Advanced Excel (Basic → Advance)</p></div>
                   <div><p>
@@ -357,7 +357,7 @@ export default function Home() {
               </div>
                 <div className={styles.card1}>
                 <div className={styles.showFlexRow} style={{ alignItems: "center", justifyContent: "center" }}>
-                  <div><img src="https://omitec.org/img/Course/finance.svg" width={30} height={30} style={{}}  ></img></div>
+                  <div><img src="https://omitec.org/img/Course/finance.svg" width={30} height={30} style={{}}  alt="Finance"></img></div>
                   <div><a> ACCOUNTING </a></div>
                   <div><p>Busy Accounting</p></div>
                   <div><p>
@@ -373,7 +373,7 @@ export default function Home() {
             <div className={styles.responsive_grid1} style={{paddingLeft:60}}>
               <div className={styles.card1}>
                               <div className={styles.showFlexRow} style={{ alignItems: "center", justifyContent: "center" }}>
-                                <div><img src="https://omitec.org/img/Course/LaptopUser.svg" width={30} height={30} style={{}}  ></img></div>
+                                <div><img src="https://omitec.org/img/Course/LaptopUser.svg" width={30} height={30} style={{}}  alt="Laptop User"></img></div>
                                 <div><a>DESIGNING </a></div>
                                 <div><p>AutoCAD (2D + 3D)</p></div>
                                 <div><p>
@@ -385,7 +385,7 @@ export default function Home() {
               </div>
                <div className={styles.card1}>
                 <div className={styles.showFlexRow} style={{ alignItems: "center", justifyContent: "center" }}>
-                  <div><img src="https://omitec.org/img/Course/LaptopUser.svg" width={30} height={30} style={{}}  ></img></div>
+                  <div><img src="https://omitec.org/img/Course/LaptopUser.svg" width={30} height={30} style={{}}  alt="Laptop User"></img></div>
                   <div><a>DESIGNING </a></div>
                   <div><p>Photoshop</p></div>
                   <div><p>
@@ -397,7 +397,7 @@ export default function Home() {
               </div>
                <div className={styles.card1}>
                 <div className={styles.showFlexRow} style={{ alignItems: "center", justifyContent: "center" }}>
-                  <div><img src="https://omitec.org/img/Course/LaptopUser.svg" width={30} height={30} style={{}}  ></img></div>
+                  <div><img src="https://omitec.org/img/Course/LaptopUser.svg" width={30} height={30} style={{}}  alt="Laptop User"></img></div>
                   <div><a>DESIGNING </a></div>
                   <div><p>CorelDRAW</p></div>
                   <div><p>
@@ -410,7 +410,7 @@ export default function Home() {
               </div>
                <div className={styles.card1}>
                 <div className={styles.showFlexRow} style={{ alignItems: "center", justifyContent: "center" }}>
-                  <div><img src="https://omitec.org/img/Course/LaptopUser.svg" width={30} height={30} style={{}}  ></img></div>
+                  <div><img src="https://omitec.org/img/Course/LaptopUser.svg" width={30} height={30} style={{}}  alt="Laptop User"></img></div>
                   <div><a>DESIGNING </a></div>
                   <div><p>Illustrator</p></div>
                   <div><p>
@@ -463,7 +463,7 @@ export default function Home() {
                 </div>
               </div>
               <div className={styles.content1} style={{ margin: 0 }}>
-                <img src={about.src} alt="" />
+                <img src={about.src} alt="About Us" />
               </div>
             </div>
           </div>
