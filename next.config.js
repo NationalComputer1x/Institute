@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
-const withImages = require('next-images')
+//const withImages = require('next-images')
 const nextConfig = {
   reactStrictMode: true,
-  withImages,
+  //withImages,
   env: {
     // This value will be replaced at build time with "my-static-value"
     FIREBASE_PROJECT_ID: 'nationalcomputer1x-9d5d4',
