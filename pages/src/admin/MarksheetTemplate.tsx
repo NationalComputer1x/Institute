@@ -9,12 +9,12 @@ interface Props {
 export default function MarksheetTemplate({ student, qr }: Props) {
 
   const total =
-    student.subjects?.reduce(
+    student?.subjects?.reduce(
       (sum: number, sub: any) => sum + Number(sub.marks),
       0
     ) || 0;
 
-  const maxMarks = (student.subjects?.length || 0) * 100;
+  const maxMarks = (student?.subjects?.length || 0) * 100;
 
   const percentage =
     maxMarks > 0 ? (total / maxMarks) * 100 : 0;
@@ -95,14 +95,14 @@ export default function MarksheetTemplate({ student, qr }: Props) {
 
           <div className="col-span-2 text-sm leading-7">
 
-            <p><b>Student's Name</b> : {student.studentName}</p>
-            <p><b>Father's Name</b> : {student.fatherName}</p>
-            <p><b>Course</b> : {student.course}</p>
-            <p><b>Course Duration</b> : {student.duration}</p>
-            <p><b>Center Name</b> : {student.centerName}</p>
-            <p><b>Center Code</b> : {student.centerCode}</p>
-            <p><b>Enrollment Number</b> : {student.enrollNo}</p>
-            <p><b>Student's Roll Number</b> : {student.rollNo}</p>
+            <p><b>Student&apos;s</b> Name</p>
+            <p><b>Father&apos;s </b>Name</p>
+            <p><b>Course</b> : {student?.course}</p>
+            <p><b>Course Duration</b> : {student?.duration}</p>
+            <p><b>Center Name</b> : {student?.centerName}</p>
+            <p><b>Center Code</b> : {student?.centerCode}</p>
+            <p><b>Enrollment Number</b> : {student?.enrollNo}</p>
+            <p><b>Student&apos; Roll Number</b> : {student?.rollNo}</p>
 
           </div>
 
@@ -110,7 +110,7 @@ export default function MarksheetTemplate({ student, qr }: Props) {
           <div className="flex justify-end">
             <div className="border-4 border-gray-300 p-1 w-[110px] h-[130px]">
               <img
-                src={student.photo}
+                src={student?.photo}
                 className="w-full h-full object-cover"
                 alt="Student Photo"
               />
@@ -132,7 +132,7 @@ export default function MarksheetTemplate({ student, qr }: Props) {
 
           <tbody>
 
-            {student.subjects?.map((sub: any, i: number) => (
+            {student?.subjects?.map((sub: any, i: number) => (
               <tr key={i}>
                 <td className="border p-2">{sub.name}</td>
                 <td className="border p-2 text-center">100</td>
@@ -163,7 +163,7 @@ export default function MarksheetTemplate({ student, qr }: Props) {
           </p>
 
           <p>
-            <b>Date of Issue :</b> {student.issueDate}
+            <b>Date of Issue :</b> {student?.issueDate}
           </p>
 
         </div>

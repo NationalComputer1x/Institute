@@ -133,12 +133,12 @@ export default function CertificateTemplate({ student, qr }: Props) {
         >
           <div style={rollBox}>
             Roll No :
-            <span style={valueBox}>{student.rollNo}</span>
+            <span style={valueBox}>{student?.rollNo}</span>
           </div>
 
           <div style={rollBox}>
             Enroll No :
-            <span style={valueBox}>{student.enrollNo}</span>
+            <span style={valueBox}>{student?.enrollNo}</span>
           </div>
         </div>
 
@@ -160,7 +160,7 @@ export default function CertificateTemplate({ student, qr }: Props) {
 
         {/* PHOTO */}
         <img
-          src={student.photo}
+          src={student?.photo}
           alt="student"
           style={{
             position: "absolute",
@@ -183,17 +183,17 @@ export default function CertificateTemplate({ student, qr }: Props) {
         >
           <p>
             Presented To :
-            <span style={highlight}>{student.studentName}</span>
+            <span style={highlight}>{student?.studentName}</span>
           </p>
 
           <p>
             S/o :
-            <span style={highlight}>{student.fatherName}</span>
+            <span style={highlight}>{student?.fatherName}</span>
           </p>
 
           <p>
             Completed :
-            <span style={highlight}>{student.course}</span>
+            <span style={highlight}>{student?.course}</span>
           </p>
 
           <p style={{ textAlign: "center", marginTop: "40px" }}>
