@@ -2,6 +2,37 @@
     display: inline;
 }
 
+.roleToggle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.baseBtn {
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+  background: #eee;
+  margin: 0 5px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  
+  /* Drop shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.baseBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+}
+
+.activeRole {
+  background: #4ce251;
+  color: #fff;
+
+  /* Stronger shadow when active */
+  box-shadow: 0 6px 16px rgba(76, 226, 81, 0.5);
+}
 .responsive_grid1 {
     color: #000;
     display: flex;
